@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A447D439113450BF00586CAD /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A447D42C113450BF00586CAD /* JSON.h */; };
+		A447D43A113450BF00586CAD /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A447D42D113450BF00586CAD /* NSObject+SBJSON.h */; };
+		A447D43B113450BF00586CAD /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A447D42E113450BF00586CAD /* NSObject+SBJSON.m */; };
+		A447D43C113450BF00586CAD /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A447D42F113450BF00586CAD /* NSString+SBJSON.h */; };
+		A447D43D113450BF00586CAD /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A447D430113450BF00586CAD /* NSString+SBJSON.m */; };
+		A447D43E113450BF00586CAD /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = A447D431113450BF00586CAD /* SBJSON.h */; };
+		A447D43F113450BF00586CAD /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A447D432113450BF00586CAD /* SBJSON.m */; };
+		A447D440113450BF00586CAD /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = A447D433113450BF00586CAD /* SBJsonBase.h */; };
+		A447D441113450BF00586CAD /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A447D434113450BF00586CAD /* SBJsonBase.m */; };
+		A447D442113450BF00586CAD /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A447D435113450BF00586CAD /* SBJsonParser.h */; };
+		A447D443113450BF00586CAD /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A447D436113450BF00586CAD /* SBJsonParser.m */; };
+		A447D444113450BF00586CAD /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = A447D437113450BF00586CAD /* SBJsonWriter.h */; };
+		A447D445113450BF00586CAD /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A447D438113450BF00586CAD /* SBJsonWriter.m */; };
+		A48889731118EED3008AE45B /* PyGoWaveBase.h in Headers */ = {isa = PBXBuildFile; fileRef = A48889711118EED3008AE45B /* PyGoWaveBase.h */; };
+		A48889741118EED3008AE45B /* PyGoWaveBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A48889721118EED3008AE45B /* PyGoWaveBase.m */; };
+		A490FCAA1121FF6F0094DA82 /* PyGoWaveController.h in Headers */ = {isa = PBXBuildFile; fileRef = A490FCA81121FF6F0094DA82 /* PyGoWaveController.h */; };
+		A490FCAB1121FF6F0094DA82 /* PyGoWaveController.m in Sources */ = {isa = PBXBuildFile; fileRef = A490FCA91121FF6F0094DA82 /* PyGoWaveController.m */; };
+		A490FCE51122011F0094DA82 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A490FCE41122011F0094DA82 /* CFNetwork.framework */; };
+		A490FD09112202EC0094DA82 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A490FD08112202EC0094DA82 /* CoreFoundation.framework */; };
+		A4951B6F1135D79E00F2A06F /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A4951B6D1135D79E00F2A06F /* AsyncSocket.h */; };
+		A4951B701135D79E00F2A06F /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A4951B6E1135D79E00F2A06F /* AsyncSocket.m */; };
+		A4951B741135D7D800F2A06F /* CRVStompClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A4951B721135D7D800F2A06F /* CRVStompClient.h */; };
+		A4951B751135D7D800F2A06F /* CRVStompClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A4951B731135D7D800F2A06F /* CRVStompClient.m */; };
+		A4970A551117010400C13567 /* PyGoWaveModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A4970A531117010400C13567 /* PyGoWaveModel.h */; };
+		A4970A561117010400C13567 /* PyGoWaveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4970A541117010400C13567 /* PyGoWaveModel.m */; };
+		A499669F111D9D0B00E45849 /* PyGoWaveOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = A499669D111D9D0B00E45849 /* PyGoWaveOperations.h */; };
+		A49966A0111D9D0B00E45849 /* PyGoWaveOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = A499669E111D9D0B00E45849 /* PyGoWaveOperations.m */; };
+		AA747D9F0F9514B9006C5449 /* NSPyGoWaveApi_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* NSPyGoWaveApi_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A447D42C113450BF00586CAD /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		A447D42D113450BF00586CAD /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		A447D42E113450BF00586CAD /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		A447D42F113450BF00586CAD /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		A447D430113450BF00586CAD /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		A447D431113450BF00586CAD /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		A447D432113450BF00586CAD /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		A447D433113450BF00586CAD /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		A447D434113450BF00586CAD /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		A447D435113450BF00586CAD /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		A447D436113450BF00586CAD /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		A447D437113450BF00586CAD /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		A447D438113450BF00586CAD /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		A48889711118EED3008AE45B /* PyGoWaveBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyGoWaveBase.h; sourceTree = "<group>"; };
+		A48889721118EED3008AE45B /* PyGoWaveBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PyGoWaveBase.m; sourceTree = "<group>"; };
+		A490FCA81121FF6F0094DA82 /* PyGoWaveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyGoWaveController.h; sourceTree = "<group>"; };
+		A490FCA91121FF6F0094DA82 /* PyGoWaveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PyGoWaveController.m; sourceTree = "<group>"; };
+		A490FCE41122011F0094DA82 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A490FD08112202EC0094DA82 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A4951B6D1135D79E00F2A06F /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		A4951B6E1135D79E00F2A06F /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		A4951B721135D7D800F2A06F /* CRVStompClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRVStompClient.h; sourceTree = "<group>"; };
+		A4951B731135D7D800F2A06F /* CRVStompClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRVStompClient.m; sourceTree = "<group>"; };
+		A4970A531117010400C13567 /* PyGoWaveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyGoWaveModel.h; sourceTree = "<group>"; };
+		A4970A541117010400C13567 /* PyGoWaveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PyGoWaveModel.m; sourceTree = "<group>"; };
+		A499669D111D9D0B00E45849 /* PyGoWaveOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyGoWaveOperations.h; sourceTree = "<group>"; };
+		A499669E111D9D0B00E45849 /* PyGoWaveOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PyGoWaveOperations.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* NSPyGoWaveApi_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPyGoWaveApi_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libNSPyGoWaveApi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSPyGoWaveApi.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				A490FCE51122011F0094DA82 /* CFNetwork.framework in Frameworks */,
+				A490FD09112202EC0094DA82 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libNSPyGoWaveApi.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* NSPyGoWaveApi */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = NSPyGoWaveApi;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A490FD08112202EC0094DA82 /* CoreFoundation.framework */,
+				A490FCE41122011F0094DA82 /* CFNetwork.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A4951B711135D7D800F2A06F /* STOMP */,
+				A4951B6C1135D79E00F2A06F /* AsyncSocket */,
+				A447D42B113450BF00586CAD /* JSON */,
+				A490FCA81121FF6F0094DA82 /* PyGoWaveController.h */,
+				A490FCA91121FF6F0094DA82 /* PyGoWaveController.m */,
+				A48889711118EED3008AE45B /* PyGoWaveBase.h */,
+				A48889721118EED3008AE45B /* PyGoWaveBase.m */,
+				A4970A531117010400C13567 /* PyGoWaveModel.h */,
+				A4970A541117010400C13567 /* PyGoWaveModel.m */,
+				A499669D111D9D0B00E45849 /* PyGoWaveOperations.h */,
+				A499669E111D9D0B00E45849 /* PyGoWaveOperations.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* NSPyGoWaveApi_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A447D42B113450BF00586CAD /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				A447D42C113450BF00586CAD /* JSON.h */,
+				A447D42D113450BF00586CAD /* NSObject+SBJSON.h */,
+				A447D42E113450BF00586CAD /* NSObject+SBJSON.m */,
+				A447D42F113450BF00586CAD /* NSString+SBJSON.h */,
+				A447D430113450BF00586CAD /* NSString+SBJSON.m */,
+				A447D431113450BF00586CAD /* SBJSON.h */,
+				A447D432113450BF00586CAD /* SBJSON.m */,
+				A447D433113450BF00586CAD /* SBJsonBase.h */,
+				A447D434113450BF00586CAD /* SBJsonBase.m */,
+				A447D435113450BF00586CAD /* SBJsonParser.h */,
+				A447D436113450BF00586CAD /* SBJsonParser.m */,
+				A447D437113450BF00586CAD /* SBJsonWriter.h */,
+				A447D438113450BF00586CAD /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		A4951B6C1135D79E00F2A06F /* AsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				A4951B6D1135D79E00F2A06F /* AsyncSocket.h */,
+				A4951B6E1135D79E00F2A06F /* AsyncSocket.m */,
+			);
+			path = AsyncSocket;
+			sourceTree = "<group>";
+		};
+		A4951B711135D7D800F2A06F /* STOMP */ = {
+			isa = PBXGroup;
+			children = (
+				A4951B721135D7D800F2A06F /* CRVStompClient.h */,
+				A4951B731135D7D800F2A06F /* CRVStompClient.m */,
+			);
+			path = STOMP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* NSPyGoWaveApi_Prefix.pch in Headers */,
+				A4970A551117010400C13567 /* PyGoWaveModel.h in Headers */,
+				A48889731118EED3008AE45B /* PyGoWaveBase.h in Headers */,
+				A499669F111D9D0B00E45849 /* PyGoWaveOperations.h in Headers */,
+				A490FCAA1121FF6F0094DA82 /* PyGoWaveController.h in Headers */,
+				A447D439113450BF00586CAD /* JSON.h in Headers */,
+				A447D43A113450BF00586CAD /* NSObject+SBJSON.h in Headers */,
+				A447D43C113450BF00586CAD /* NSString+SBJSON.h in Headers */,
+				A447D43E113450BF00586CAD /* SBJSON.h in Headers */,
+				A447D440113450BF00586CAD /* SBJsonBase.h in Headers */,
+				A447D442113450BF00586CAD /* SBJsonParser.h in Headers */,
+				A447D444113450BF00586CAD /* SBJsonWriter.h in Headers */,
+				A4951B6F1135D79E00F2A06F /* AsyncSocket.h in Headers */,
+				A4951B741135D7D800F2A06F /* CRVStompClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* NSPyGoWaveApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "NSPyGoWaveApi" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSPyGoWaveApi;
+			productName = NSPyGoWaveApi;
+			productReference = D2AAC07E0554694100DB518D /* libNSPyGoWaveApi.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "NSPyGoWaveApi" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* NSPyGoWaveApi */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* NSPyGoWaveApi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4970A561117010400C13567 /* PyGoWaveModel.m in Sources */,
+				A48889741118EED3008AE45B /* PyGoWaveBase.m in Sources */,
+				A49966A0111D9D0B00E45849 /* PyGoWaveOperations.m in Sources */,
+				A490FCAB1121FF6F0094DA82 /* PyGoWaveController.m in Sources */,
+				A447D43B113450BF00586CAD /* NSObject+SBJSON.m in Sources */,
+				A447D43D113450BF00586CAD /* NSString+SBJSON.m in Sources */,
+				A447D43F113450BF00586CAD /* SBJSON.m in Sources */,
+				A447D441113450BF00586CAD /* SBJsonBase.m in Sources */,
+				A447D443113450BF00586CAD /* SBJsonParser.m in Sources */,
+				A447D445113450BF00586CAD /* SBJsonWriter.m in Sources */,
+				A4951B701135D79E00F2A06F /* AsyncSocket.m in Sources */,
+				A4951B751135D7D800F2A06F /* CRVStompClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/NSPyGoWaveApi.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NSPyGoWaveApi_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = NSPyGoWaveApi;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/NSPyGoWaveApi.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NSPyGoWaveApi_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = NSPyGoWaveApi;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "NSPyGoWaveApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "NSPyGoWaveApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
